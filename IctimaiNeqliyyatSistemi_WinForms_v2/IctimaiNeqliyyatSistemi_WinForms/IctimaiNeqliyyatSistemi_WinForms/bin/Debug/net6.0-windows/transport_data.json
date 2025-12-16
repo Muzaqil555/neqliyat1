@@ -1,0 +1,94 @@
+{
+  "Stops": [
+    {
+      "Id": "45fef949-5380-4be5-8678-d445e55c8518",
+      "Name": "28 May",
+      "District": "N\u0259simi"
+    },
+    {
+      "Id": "121227ec-cfa6-424f-ac41-9dd1780e73c7",
+      "Name": "G\u0259nclik",
+      "District": "N\u0259simi"
+    },
+    {
+      "Id": "5a49b444-c105-4114-bf78-38cab6015909",
+      "Name": "Koro\u011Flu",
+      "District": "N\u0259rimanov"
+    },
+    {
+      "Id": "0f388ff8-9ad5-433c-bb26-1cfccdcc837b",
+      "Name": "28 May",
+      "District": "N\u0259simi"
+    }
+  ],
+  "Routes": [
+    {
+      "Id": "8769f206-a405-4325-8bc5-2cabe0cb5581",
+      "Code": "1",
+      "Name": "28 May \u2192 Koro\u011Flu",
+      "StopIds": [
+        "45fef949-5380-4be5-8678-d445e55c8518",
+        "121227ec-cfa6-424f-ac41-9dd1780e73c7",
+        "5a49b444-c105-4114-bf78-38cab6015909"
+      ]
+    },
+    {
+      "Id": "5da2c061-f9a9-46ce-a441-4fc0668eb94e",
+      "Code": "2",
+      "Name": "8 noyabr\u2192 Koro\u011Flu",
+      "StopIds": [
+        "45fef949-5380-4be5-8678-d445e55c8518",
+        "121227ec-cfa6-424f-ac41-9dd1780e73c7",
+        "5a49b444-c105-4114-bf78-38cab6015909"
+      ]
+    },
+    {
+      "Id": "95c6d37c-927f-4506-bb31-535b85130de4",
+      "Code": "3",
+      "Name": "8 noyabr\u2192 Koro\u011Flu",
+      "StopIds": [
+        "45fef949-5380-4be5-8678-d445e55c8518",
+        "121227ec-cfa6-424f-ac41-9dd1780e73c7",
+        "5a49b444-c105-4114-bf78-38cab6015909"
+      ]
+    }
+  ],
+  "Trips": [
+    {
+      "Id": "983ff9ed-6388-47d9-9dad-25736270c8fb",
+      "RouteId": "8769f206-a405-4325-8bc5-2cabe0cb5581",
+      "Departure": "2025-12-17T01:47:15.0576152+04:00",
+      "BusNo": "12"
+    },
+    {
+      "Id": "9f5d07c5-a794-4051-b3a8-cbf977838c81",
+      "RouteId": "8769f206-a405-4325-8bc5-2cabe0cb5581",
+      "Departure": "2025-12-17T01:47:15.0576152+04:00",
+      "BusNo": "12"
+    },
+    {
+      "Id": "fb563b91-b619-40e1-ab76-ae40cea31905",
+      "RouteId": "95c6d37c-927f-4506-bb31-535b85130de4",
+      "Departure": "2025-12-17T01:47:15.0576152+04:00",
+      "BusNo": "3"
+    }
+  ],
+  "Sales": [
+    {
+      "Id": "a48b7510-ae68-4819-b06e-c8f06fcd434b",
+      "TripId": "9f5d07c5-a794-4051-b3a8-cbf977838c81",
+      "SoldAt": "2025-12-17T01:18:04.4937965+04:00",
+      "PassengerType": 1,
+      "PaymentType": 0,
+      "Price": 12
+    },
+    {
+      "Id": "ae8453a7-7f22-4cf1-ac49-85c9898c775e",
+      "TripId": "fb563b91-b619-40e1-ab76-ae40cea31905",
+      "SoldAt": "2025-12-17T01:19:57.1119789+04:00",
+      "PassengerType": 1,
+      "PaymentType": 0,
+      "Price": 12
+    }
+  ]
+}
